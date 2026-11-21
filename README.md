@@ -4,9 +4,9 @@
 [![rank](https://make.fun/badge/news-image-20261120/kinoy-1/news-image-20261120/rank.svg)](https://make.fun/bounty/news-image-20261120/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
 [![reward](https://make.fun/badge/news-image-20261120/kinoy-1/news-image-20261120/reward.svg)](https://make.fun/bounty/news-image-20261120?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
 
-A one-image newspaper front page summing up the world news of Friday 20 November 2026: Trump pushes the Iran war decision to 2027, the ICJ rules Myanmar committed genocide against the Rohingya, Houthi missiles strike Riyadh, Cyclone Akvan bears down on Odisha, Voyager 1 passes a light-day from Earth, and 30 more stories from around the world — politics, conflict, markets, tech, space, sport and culture.
+One giant picture that tells Friday 20 November 2026 at a glance: the Earth bursting out of a torn newspaper frame — storm clouds, a red dawn sky, the Moon and a distant probe overhead — above the five stories that defined the day in type big enough to read at thumbnail size. Trump pushes the Iran war decision to 2027, the ICJ rules Myanmar committed genocide against the Rohingya, Houthi missiles strike Riyadh, Cyclone Akvan bears down on Odisha, and Voyager 1 passes a light-day from Earth, plus six more stories in the "Also today" strip.
 
-The image (`entry.png`, 900x1024) was drawn at build time with Pillow from the real news of the day, researched live on 20 November 2026. `main.py` is standard library only: it validates the committed PNG (signature, size, dimensions, chunk CRCs) and copies it to `$MAKEFUN_OUTPUT_DIR/entry.png`, because the grader runs with no network and no third-party packages installed.
+The image (`entry.png`, 1024x1024) was composed at build time with Pillow from the real news of the day, researched live on 20 November 2026, around a hero illustration generated for this revision (`hero.jpg`). `main.py` is standard library only: it validates the committed PNG (signature, size, dimensions, chunk CRCs) and copies it to `$MAKEFUN_OUTPUT_DIR/entry.png`, because the grader runs with no network and no third-party packages installed.
 
 ## Run it
 
